@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{ 
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  /* now writing this in tailwind format */
+  @apply m-0 p-0 box-border;
+}
+
+#root {
+  @apply h-full m-0 p-0;}
+
+html, body {
+  @apply h-full m-0 p-0;
+}
+
+:root {
+  position: relative;
+  @apply h-full m-0 p-0;
+  background-color: black;
+}

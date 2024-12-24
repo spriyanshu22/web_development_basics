@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .listitem-main-body{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 5vh;
+            align-items: center;
+            border: 1px solid rgb(233, 230, 230);
+            padding: 5px;
+            background-color: white;
+            color: black;
+        }
+
+        .listitemspan-main-body{
+            background-color: green;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; height: 100vh; justify-content: center;">
+    <div class="mainBody"
+    style = "display: flex; flex-direction: column; align-items: center; background-color: yellow; height: 80vh; width: 80vw;">
+        <h1 class = "heading-main-body" style = "height: 6vh; color: black;">Learn Code Online </h1>
+        <ul class = "list-main-body" style=" width: 70vw; diplay:flex; flex-direction: row; justify-content: center; height: 50vh; overflow-y: scroll;">
+            <!-- <li class = "listitem-main-body" > 
+                Javascript Course
+                <span class = "listitemspan-main-body">$1000</span>
+            </li> -->
+        </ul>
+        <button class = "button-main-body" style = "height: 4vh" >Sort Courses</button>
+    </div>
+    <script src="L46_to_L60.js"></script>
+</body>
+</html>

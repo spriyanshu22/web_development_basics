@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #options{
+            display: flex;
+            margin-top: 5vh;
+            justify-content: center;
+            align-items: center;
+            gap: 4vw;
+        }
+        
+        img{
+            cursor: pointer;
+            width: 15vw;
+            height: 15vw;
+
+        }
+
+        img:hover{
+            transform: scale(1.1);
+        }
+
+        img:active{
+            transform: scale(1.2);
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        #result{
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #score{
+            text-align: center;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body style="background-color: black; color: white;">
+    <h1>Hello World</h1>
+    <script src="./script.js"></script>
+    <!-- we will create frontend for the stone paper game -->
+    <h1>Stone Paper Scissor Game</h1>
+    <p>Choose any one from below</p>
+    <div id="options">
+        <img id="stone" src="stone.jpg" alt="stone" height="100px" width="100px" onclick="userChoice('stone')">
+        <img id="paper" src="paper.jpg" alt="paper" height="100px" width="100px" onclick="userChoice('paper')">
+        <img id="scissor" src="scissor.jpg" alt="scissor" height="100px" width="100px" onclick="userChoice('scissor')">
+    </div>
+    <p id="result">Please select a option</p>
+    <!-- <p id="score"></p> -->
+    
+    <!-- Sections that diplays your choice and computers choice and hence who got point -->
+    <section id="choices">
+        <h1>Your Choice</h1>
+        <p id="your-choice">None</p>
+        <h1>Computer's Choice</h1>
+        <p id="computer-choice">None</p>   
+    </section>
+
+    <!-- sections that displays user score -->
+    <section id="user-score-section">
+        <h1>User Score</h1>
+        <p id="user-score">0</p>
+    </section>
+
+    <!-- importing javascript -->
+    <script src="./stone_paper_scissor.js"></script>
+
+
+</body>
+</html>

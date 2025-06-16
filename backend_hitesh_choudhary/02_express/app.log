@@ -1,0 +1,9 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/ws\",\"status\":\"404\",\"responseTime\":\"6.092\"}","timestamp":"2024-12-25T16:10:58.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/ws\",\"status\":\"404\",\"responseTime\":\"7.133\"}","timestamp":"2024-12-25T16:20:54.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"//ice-tea\",\"status\":\"404\",\"responseTime\":\"1.439\"}","timestamp":"2024-12-25T16:51:15.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/ice-tea\",\"status\":\"200\",\"responseTime\":\"2.611\"}","timestamp":"2024-12-25T16:51:23.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/add-tea\",\"status\":\"201\",\"responseTime\":\"18.039\"}","timestamp":"2024-12-25T16:52:24.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/add-tea\",\"status\":\"201\",\"responseTime\":\"1.409\"}","timestamp":"2024-12-25T16:52:33.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/ice-tea\",\"status\":\"200\",\"responseTime\":\"0.730\"}","timestamp":"2024-12-25T16:53:01.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request Body: ","name":"y tea","price":"101","timestamp":"2024-12-25T16:53:55.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/add-tea\",\"status\":\"201\",\"responseTime\":\"14.567\"}","timestamp":"2024-12-25T16:53:55.010Z"}
